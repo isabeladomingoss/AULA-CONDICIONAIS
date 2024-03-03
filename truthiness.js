@@ -1,7 +1,7 @@
-const x = 18;
+const nome = "";
 
-if (x) {
-    console.log("Deu verdadeiro").
-} else {
-    console.log("Deu falso");
+if (!nome) {
+    console.log("Por favor, preencha seu nome!");
 }
+
+//ou (nome === "")
